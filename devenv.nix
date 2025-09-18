@@ -56,7 +56,7 @@
     "project:setup-dev" = {
       exec = ''
         echo "→ Instalando @angular/cli@16.2.11 y @ionic/cli localmente (devDependencies)..."
-        npm install --no-audit --no-fund --save-dev @angular/cli@16.2.11 @ionic/cli
+        npm install --no-audit --no-fund --save-dev @angular/cli@16.2.11 @ionic/cli@6.20.9
         echo "✅ Herramientas instaladas en node_modules/.bin"
       '';
     };
