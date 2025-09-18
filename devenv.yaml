@@ -5,8 +5,7 @@ inputs:
   nixpkgs-old:
     url: github:nixos/nixpkgs/7a339d87931bba829f68e94621536cad9132971a
 # If you're using non-OSS software, you can set allowUnfree to true.
-# allowUnfree: true
-
+allowUnfree: true
 # If you're willing to use a package that's vulnerable
 # permittedInsecurePackages:
 #  - "openssl-1.1.1w"
